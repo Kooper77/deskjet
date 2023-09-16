@@ -1,0 +1,2 @@
+// Coloque o código JavaScript aqui
+document.body.style.backgroundColor = "lightblue";
