@@ -1,2 +1,17 @@
-// Coloque o código JavaScript aqui
-document.body.style.backgroundColor = "lightblue";
+// Função para mudar o fundo para azul escuro
+function changeBackgroundColor() {
+  document.body.style.backgroundColor = "darkblue";
+}
+
+// Chamar a função para mudar o fundo
+changeBackgroundColor();
+
+// Função para criar uma pasta no DOM
+function createFolderInDOM() {
+  var folderElement = document.createElement("div");
+  folderElement.textContent = "Esta é uma pasta criada no DOM.";
+  document.body.appendChild(folderElement);
+}
+
+// Chamar a função para criar a pasta
+createFolderInDOM();
